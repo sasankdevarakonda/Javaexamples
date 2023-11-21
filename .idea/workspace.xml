@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6559a49f-fe45-4098-aeb3-9a2da6887050" name="Changes" comment="" />
+    <list default="true" id="6559a49f-fe45-4098-aeb3-9a2da6887050" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BankSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HDFC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SBI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Union.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Transfer" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -33,12 +44,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Banks",
     "last_opened_file_path": "D:/Project",
     "onboarding.tips.debug.path": "D:/IdeaProjects/Gateway/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankName">
+  <component name="RunManager">
     <configuration name="BankName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankName" />
       <module name="Gateway" />
@@ -59,10 +70,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Gateway" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BankName" />
         <item itemvalue="Application.moneyTransfer" />
+        <item itemvalue="Application.moneyTransfer" />
+        <item itemvalue="Application.BankName" />
+        <item itemvalue="Application.BankName" />
       </list>
     </recent_temporary>
   </component>
