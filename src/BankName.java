@@ -1,7 +1,7 @@
 public class BankName {
     public static void main(String[] args) {
 
-            String userChoice = "ICICI";
+            String userChoice = "RBI";
             String selectedBank = getSelectedBank(userChoice);
             System.out.println("Selected bank: " + selectedBank);
         }
