@@ -20,13 +20,13 @@ public class ElectricVehicle extends CarTemplate{
     }
 
     @Override
-    public void WheelType(String Wheel) {
+    public void WheelType() {
 
         System.out.println("Pressed Steel Disc Wheel");
     }
 
     @Override
-    public void Colour(String color) {
+    public void Colour() {
         System.out.println("Red Colour");
     }
 

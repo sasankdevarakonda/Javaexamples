@@ -19,12 +19,12 @@ public class FamilyCars extends CarTemplate{
 
 
     @Override
-       public void WheelType(String Wheel) {
+       public void WheelType() {
             System.out.println("Drum Type");
         }
 
         @Override
-        public void Colour(String color) {
+        public void Colour() {
             System.out.println("Black Colour");
         }
 

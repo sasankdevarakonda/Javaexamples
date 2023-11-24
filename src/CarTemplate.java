@@ -3,8 +3,8 @@ import Model.Control;
 import Model.Engine;
 
 public abstract class CarTemplate {
-    abstract void WheelType(String Wheel);
-    abstract void Colour(String color);
+    abstract void WheelType();
+    abstract void Colour();
     String engine;
     String ac;
     String control;
@@ -13,13 +13,10 @@ public abstract class CarTemplate {
         getEngine();
         getAc();
         getControl();
-        WheelType("Wheel");
-        Colour("color");
+        WheelType();
+        Colour();
         System.out.println("Car Delivered to Client");
     }
-
-
-
 
     public Engine getEngine() {
         return new Engine(220, 12.65);
