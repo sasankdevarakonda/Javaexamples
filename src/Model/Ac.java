@@ -12,6 +12,7 @@ public class Ac {
 
         @Override
         public String toString() {
+
             return  "Company "+Company+ "," +" Capasity " + capacity ;
         }
 

@@ -10,13 +10,16 @@ public abstract class car {
         String ac;
         String control;
 
-    public car getcar() {
-        Engine engine = getEngine();
-        Ac ac = getAc();
-        Control control = getControl();
-        return new ElectricVehicle(engine,ac,control);
+    public final void getcar() {
+           getEngine();
+           getAc();
+           getControl();
+           getWheeltype();
+           getColour();
 
+            System.out.println("Car Delivered to Client");
         }
+
 
 
         public Engine getEngine() {
@@ -30,6 +33,13 @@ public abstract class car {
         public Control getControl() {
             return new Control("disc brakes", 5);
         }
+        public void getWheeltype(){
+        System.out.println("Black Colour");
+        }
+        public void getColour(){
+        System.out.println("Pressed Steel Disc Wheel");
+        }
+
 
     void displayComponents() {
         System.out.println("Engine: " + engine);

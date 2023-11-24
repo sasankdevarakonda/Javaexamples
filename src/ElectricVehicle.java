@@ -21,12 +21,13 @@ public class ElectricVehicle extends car{
 
     @Override
     void WheelType(String Wheel) {
-        System.out.println("Wheel Type: " + Wheel);
+
+        System.out.println("Pressed Steel Disc Wheel");
     }
 
     @Override
     void Colour(String color) {
-        System.out.println("Color: " + color);
+        System.out.println("Red Colour");
     }
 
 
