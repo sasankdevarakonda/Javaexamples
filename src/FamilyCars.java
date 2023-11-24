@@ -2,10 +2,11 @@ import Model.Ac;
 import Model.Control;
 import Model.Engine;
 
-public class FamilyCars extends car{
+public class FamilyCars extends CarTemplate{
         private Engine engine;
         private Ac ac;
         private Control control;
+
 
   FamilyCars(Engine engine, Ac ac, Control control) {
         this.engine = engine;
@@ -18,17 +19,13 @@ public class FamilyCars extends car{
 
 
     @Override
-        void WheelType(String Wheel) {
+       public void WheelType(String Wheel) {
             System.out.println("Drum Type");
         }
 
         @Override
-        void Colour(String color) {
+        public void Colour(String color) {
             System.out.println("Black Colour");
         }
-        void displayComponents() {
-            System.out.println("Engine: " + engine);
-            System.out.println("Ac:" + ac);
-            System.out.println("control: "+ control);
-        }
+
     }

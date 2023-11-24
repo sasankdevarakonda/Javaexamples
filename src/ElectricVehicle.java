@@ -2,7 +2,7 @@ import Model.Ac;
 import Model.Control;
 import Model.Engine;
 
-public class ElectricVehicle extends car{
+public class ElectricVehicle extends CarTemplate{
 
     private Engine engine;
     private Ac ac;
@@ -20,20 +20,16 @@ public class ElectricVehicle extends car{
     }
 
     @Override
-    void WheelType(String Wheel) {
+    public void WheelType(String Wheel) {
 
         System.out.println("Pressed Steel Disc Wheel");
     }
 
     @Override
-    void Colour(String color) {
+    public void Colour(String color) {
         System.out.println("Red Colour");
     }
 
 
-    void displayComponents() {
-        System.out.println("Engine: " + engine);
-        System.out.println("Ac: " +ac);
-        System.out.println("control: "+ control);
-    }
+
 }
