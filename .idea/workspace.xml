@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5948301f-b22e-4760-9031-e534d096572a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mobile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract/Mobiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract/SmartPh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract/Tabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/MobileUserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/DisplayScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Hardware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Software.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Mobiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Mobiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/SmartPh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/SmartPh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Tabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Tabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/MobileUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/MobileUserClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2YZqbOOFVuoGpwLyAXQSR37AfD5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "D:/IdeaProjects/Mobile/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/IdeaProjects/Mobile/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MobileUserClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.MobileUserClient" />
@@ -81,6 +72,19 @@
       <option name="presentableId" value="Default" />
       <updated>1700743523622</updated>
     </task>
+    <task id="LOCAL-00001" summary="MobileAccessseries">
+      <option name="closed" value="true" />
+      <created>1700753095865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700753095865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MobileAccessseries" />
+    <option name="LAST_COMMIT_MESSAGE" value="MobileAccessseries" />
   </component>
 </project>

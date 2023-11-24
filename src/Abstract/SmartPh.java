@@ -20,27 +20,18 @@ public class SmartPh extends Mobiles{
         this.hardware = hardware;
         this.software=software;
     }
-
-
-    public SmartPh() {
+    public SmartPh(){
 
     }
-
-
     @Override
-    public void MobileColor(String Color) {
-        System.out.println("Color: "+Color);
+    public void MobileColor() {
+        System.out.println("Color: Blue");
     }
 
     @Override
-    public void MobileSim(String SIM) {
-        System.out.println("SIMCardName: "+SIM);
+    public void MobileSim() {
+        System.out.println("Sim: Jio");
     }
 
-    void displayComponents() {
-        System.out.println("Camera: " + camera);
-        System.out.println("ScreenModel: " +displayScreen);
-        System.out.println("Hardware: "+ hardware);
-        System.out.println("Software: "+ Software);
-    }
+
 }
